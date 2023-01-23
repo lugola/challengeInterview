@@ -12,7 +12,7 @@ struct CentralStrings {
     static var imgCollect2 = "imageCollection2"
     static var imgCollect3 = "imageCollection3"
     static var imgToolDefault = "imageTool"
-    static var imgProfileDefault = "imageTool"
+    static var imgProfileDefault = "profileImage"
     static var nameUser = "Moises Lugo"
     static var seniorityUser = "SR"
     static var tableCel = "cell"

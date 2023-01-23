@@ -52,7 +52,7 @@ class HomeViewController: UIViewController {
         CollectionViewHomeRow.showsVerticalScrollIndicator = false
         CollectionViewHomeRow.delegate = self
         CollectionViewHomeRow.dataSource = self
-        self.initModel(data: [ModelHome.init(name: "Swift", image: CentralStrings.imgCollect1), ModelHome.init(name: "Android", image: CentralStrings.imgCollect2), ModelHome.init(name: "Java AWS", image: CentralStrings.imgCollect3), ModelHome.init(name: "Backend", image: "imageTool"), ModelHome.init(name: "UX/UI", image: CentralStrings.imgToolDefault)])
+        self.initModel(data: [ModelHome.init(name: "Swift", image: CentralStrings.imgCollect1), ModelHome.init(name: "Android", image: CentralStrings.imgCollect2), ModelHome.init(name: "Java AWS", image: CentralStrings.imgCollect3), ModelHome.init(name: "Backend", image: "imageTool"),  ModelHome.init(name: "Backend", image: "imageTool"),  ModelHome.init(name: "Backend", image: "imageTool"), ModelHome.init(name: "UX/UI", image: CentralStrings.imgToolDefault)])
         profileImage.image = UIImage(named: CentralStrings.imgProfileDefault)
         nameLb.text = CentralStrings.nameUser
         seniorityLb.text = CentralStrings.seniorityUser

@@ -91,10 +91,10 @@
                                 </constraints>
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="EXH-4H-GNx">
-                                <rect key="frame" x="15" y="262" width="360" height="548"/>
+                                <rect key="frame" x="15" y="231" width="360" height="579"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="548" id="gC4-s6-eiu"/>
+                                    <constraint firstAttribute="height" constant="579" id="gC4-s6-eiu"/>
                                 </constraints>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="YiB-Yq-ofc">
                                     <size key="itemSize" width="157" height="143"/>
@@ -164,7 +164,7 @@
                             <constraint firstItem="dsi-X6-yoy" firstAttribute="trailing" secondItem="Je1-ud-kae" secondAttribute="trailing" constant="15" id="Xu0-yP-BkN"/>
                             <constraint firstItem="Je1-ud-kae" firstAttribute="leading" secondItem="dsi-X6-yoy" secondAttribute="leading" constant="15" id="Z13-Zo-N3y"/>
                             <constraint firstItem="Je1-ud-kae" firstAttribute="top" secondItem="dsi-X6-yoy" secondAttribute="top" constant="15" id="hqa-aR-0cA"/>
-                            <constraint firstItem="EXH-4H-GNx" firstAttribute="top" secondItem="Je1-ud-kae" secondAttribute="bottom" constant="71" id="wkn-oJ-r5W"/>
+                            <constraint firstItem="EXH-4H-GNx" firstAttribute="top" secondItem="Je1-ud-kae" secondAttribute="bottom" constant="40" id="wkn-oJ-r5W"/>
                             <constraint firstItem="dsi-X6-yoy" firstAttribute="bottom" secondItem="EXH-4H-GNx" secondAttribute="bottom" id="yUj-U1-jXO"/>
                         </constraints>
                     </view>
