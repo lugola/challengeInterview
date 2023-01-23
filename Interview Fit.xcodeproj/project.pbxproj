@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F5259FCA65B2FBD94B4B348 /* libPods-Interview Fit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9849088091E9C5D97EE67F /* libPods-Interview Fit.a */; };
+		F3030640297EF99B001898CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F303063F297EF99B001898CB /* AppDelegate.swift */; };
+		F3030642297EF99B001898CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3030641297EF99B001898CB /* SceneDelegate.swift */; };
+		F3030644297EF99B001898CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3030643297EF99B001898CB /* ViewController.swift */; };
+		F3030647297EF99B001898CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3030645297EF99B001898CB /* Main.storyboard */; };
+		F303064A297EF99B001898CB /* Interview_Fit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3030648297EF99B001898CB /* Interview_Fit.xcdatamodeld */; };
+		F303064C297EF99D001898CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F303064B297EF99D001898CB /* Assets.xcassets */; };
+		F303064F297EF99D001898CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F303064D297EF99D001898CB /* LaunchScreen.storyboard */; };
+		F303065A297EF99D001898CB /* Interview_FitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3030659297EF99D001898CB /* Interview_FitTests.swift */; };
+		F3030664297EF99D001898CB /* Interview_FitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3030663297EF99D001898CB /* Interview_FitUITests.swift */; };
+		F3030666297EF99D001898CB /* Interview_FitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3030665297EF99D001898CB /* Interview_FitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3030656297EF99D001898CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3030634297EF99B001898CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F303063B297EF99B001898CB;
+			remoteInfo = "Interview Fit";
+		};
+		F3030660297EF99D001898CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3030634297EF99B001898CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F303063B297EF99B001898CB;
+			remoteInfo = "Interview Fit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D00E87924DDA8C8E7F08ADE /* Pods-Interview Fit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interview Fit.debug.xcconfig"; path = "Target Support Files/Pods-Interview Fit/Pods-Interview Fit.debug.xcconfig"; sourceTree = "<group>"; };
+		4F9849088091E9C5D97EE67F /* libPods-Interview Fit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Interview Fit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C978924F566ECB732D886E /* Pods-Interview Fit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interview Fit.release.xcconfig"; path = "Target Support Files/Pods-Interview Fit/Pods-Interview Fit.release.xcconfig"; sourceTree = "<group>"; };
+		F303063C297EF99B001898CB /* Interview Fit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interview Fit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F303063F297EF99B001898CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3030641297EF99B001898CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3030643297EF99B001898CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3030646297EF99B001898CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3030649297EF99B001898CB /* Interview_Fit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Interview_Fit.xcdatamodel; sourceTree = "<group>"; };
+		F303064B297EF99D001898CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F303064E297EF99D001898CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3030650297EF99D001898CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3030655297EF99D001898CB /* Interview FitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interview FitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3030659297EF99D001898CB /* Interview_FitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interview_FitTests.swift; sourceTree = "<group>"; };
+		F303065F297EF99D001898CB /* Interview FitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interview FitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3030663297EF99D001898CB /* Interview_FitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interview_FitUITests.swift; sourceTree = "<group>"; };
+		F3030665297EF99D001898CB /* Interview_FitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interview_FitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3030639297EF99B001898CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5259FCA65B2FBD94B4B348 /* libPods-Interview Fit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3030652297EF99D001898CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F303065C297EF99D001898CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		640DE18C86569F6DA7BE8D16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D00E87924DDA8C8E7F08ADE /* Pods-Interview Fit.debug.xcconfig */,
+				D7C978924F566ECB732D886E /* Pods-Interview Fit.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		72B5011F0A5522D4B2A07CD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F9849088091E9C5D97EE67F /* libPods-Interview Fit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3030633297EF99B001898CB = {
+			isa = PBXGroup;
+			children = (
+				F303063E297EF99B001898CB /* Interview Fit */,
+				F3030658297EF99D001898CB /* Interview FitTests */,
+				F3030662297EF99D001898CB /* Interview FitUITests */,
+				F303063D297EF99B001898CB /* Products */,
+				640DE18C86569F6DA7BE8D16 /* Pods */,
+				72B5011F0A5522D4B2A07CD1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F303063D297EF99B001898CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F303063C297EF99B001898CB /* Interview Fit.app */,
+				F3030655297EF99D001898CB /* Interview FitTests.xctest */,
+				F303065F297EF99D001898CB /* Interview FitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F303063E297EF99B001898CB /* Interview Fit */ = {
+			isa = PBXGroup;
+			children = (
+				F303063F297EF99B001898CB /* AppDelegate.swift */,
+				F3030641297EF99B001898CB /* SceneDelegate.swift */,
+				F3030643297EF99B001898CB /* ViewController.swift */,
+				F3030645297EF99B001898CB /* Main.storyboard */,
+				F303064B297EF99D001898CB /* Assets.xcassets */,
+				F303064D297EF99D001898CB /* LaunchScreen.storyboard */,
+				F3030650297EF99D001898CB /* Info.plist */,
+				F3030648297EF99B001898CB /* Interview_Fit.xcdatamodeld */,
+			);
+			path = "Interview Fit";
+			sourceTree = "<group>";
+		};
+		F3030658297EF99D001898CB /* Interview FitTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3030659297EF99D001898CB /* Interview_FitTests.swift */,
+			);
+			path = "Interview FitTests";
+			sourceTree = "<group>";
+		};
+		F3030662297EF99D001898CB /* Interview FitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3030663297EF99D001898CB /* Interview_FitUITests.swift */,
+				F3030665297EF99D001898CB /* Interview_FitUITestsLaunchTests.swift */,
+			);
+			path = "Interview FitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F303063B297EF99B001898CB /* Interview Fit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3030669297EF99D001898CB /* Build configuration list for PBXNativeTarget "Interview Fit" */;
+			buildPhases = (
+				7E92880B3BC2ADCE096E5E9D /* [CP] Check Pods Manifest.lock */,
+				F3030638297EF99B001898CB /* Sources */,
+				F3030639297EF99B001898CB /* Frameworks */,
+				F303063A297EF99B001898CB /* Resources */,
+				3FF89C644DBBD934BB58B18E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Interview Fit";
+			productName = "Interview Fit";
+			productReference = F303063C297EF99B001898CB /* Interview Fit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3030654297EF99D001898CB /* Interview FitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F303066C297EF99D001898CB /* Build configuration list for PBXNativeTarget "Interview FitTests" */;
+			buildPhases = (
+				F3030651297EF99D001898CB /* Sources */,
+				F3030652297EF99D001898CB /* Frameworks */,
+				F3030653297EF99D001898CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3030657297EF99D001898CB /* PBXTargetDependency */,
+			);
+			name = "Interview FitTests";
+			productName = "Interview FitTests";
+			productReference = F3030655297EF99D001898CB /* Interview FitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F303065E297EF99D001898CB /* Interview FitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F303066F297EF99D001898CB /* Build configuration list for PBXNativeTarget "Interview FitUITests" */;
+			buildPhases = (
+				F303065B297EF99D001898CB /* Sources */,
+				F303065C297EF99D001898CB /* Frameworks */,
+				F303065D297EF99D001898CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3030661297EF99D001898CB /* PBXTargetDependency */,
+			);
+			name = "Interview FitUITests";
+			productName = "Interview FitUITests";
+			productReference = F303065F297EF99D001898CB /* Interview FitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3030634297EF99B001898CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F303063B297EF99B001898CB = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					F3030654297EF99D001898CB = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F303063B297EF99B001898CB;
+					};
+					F303065E297EF99D001898CB = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F303063B297EF99B001898CB;
+					};
+				};
+			};
+			buildConfigurationList = F3030637297EF99B001898CB /* Build configuration list for PBXProject "Interview Fit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3030633297EF99B001898CB;
+			productRefGroup = F303063D297EF99B001898CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F303063B297EF99B001898CB /* Interview Fit */,
+				F3030654297EF99D001898CB /* Interview FitTests */,
+				F303065E297EF99D001898CB /* Interview FitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F303063A297EF99B001898CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F303064F297EF99D001898CB /* LaunchScreen.storyboard in Resources */,
+				F303064C297EF99D001898CB /* Assets.xcassets in Resources */,
+				F3030647297EF99B001898CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3030653297EF99D001898CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F303065D297EF99D001898CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FF89C644DBBD934BB58B18E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Interview Fit/Pods-Interview Fit-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Interview Fit/Pods-Interview Fit-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Interview Fit/Pods-Interview Fit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E92880B3BC2ADCE096E5E9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Interview Fit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3030638297EF99B001898CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3030644297EF99B001898CB /* ViewController.swift in Sources */,
+				F303064A297EF99B001898CB /* Interview_Fit.xcdatamodeld in Sources */,
+				F3030640297EF99B001898CB /* AppDelegate.swift in Sources */,
+				F3030642297EF99B001898CB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3030651297EF99D001898CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F303065A297EF99D001898CB /* Interview_FitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F303065B297EF99D001898CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3030666297EF99D001898CB /* Interview_FitUITestsLaunchTests.swift in Sources */,
+				F3030664297EF99D001898CB /* Interview_FitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3030657297EF99D001898CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F303063B297EF99B001898CB /* Interview Fit */;
+			targetProxy = F3030656297EF99D001898CB /* PBXContainerItemProxy */;
+		};
+		F3030661297EF99D001898CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F303063B297EF99B001898CB /* Interview Fit */;
+			targetProxy = F3030660297EF99D001898CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3030645297EF99B001898CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3030646297EF99B001898CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F303064D297EF99D001898CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F303064E297EF99D001898CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3030667297EF99D001898CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3030668297EF99D001898CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F303066A297EF99D001898CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D00E87924DDA8C8E7F08ADE /* Pods-Interview Fit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Interview Fit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "globant.challenge.com.Interview-Fit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F303066B297EF99D001898CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7C978924F566ECB732D886E /* Pods-Interview Fit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Interview Fit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "globant.challenge.com.Interview-Fit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F303066D297EF99D001898CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "globant.challenge.com.Interview-FitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interview Fit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Interview Fit";
+			};
+			name = Debug;
+		};
+		F303066E297EF99D001898CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "globant.challenge.com.Interview-FitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interview Fit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Interview Fit";
+			};
+			name = Release;
+		};
+		F3030670297EF99D001898CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "globant.challenge.com.Interview-FitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Interview Fit";
+			};
+			name = Debug;
+		};
+		F3030671297EF99D001898CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "globant.challenge.com.Interview-FitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Interview Fit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3030637297EF99B001898CB /* Build configuration list for PBXProject "Interview Fit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3030667297EF99D001898CB /* Debug */,
+				F3030668297EF99D001898CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3030669297EF99D001898CB /* Build configuration list for PBXNativeTarget "Interview Fit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F303066A297EF99D001898CB /* Debug */,
+				F303066B297EF99D001898CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F303066C297EF99D001898CB /* Build configuration list for PBXNativeTarget "Interview FitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F303066D297EF99D001898CB /* Debug */,
+				F303066E297EF99D001898CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F303066F297EF99D001898CB /* Build configuration list for PBXNativeTarget "Interview FitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3030670297EF99D001898CB /* Debug */,
+				F3030671297EF99D001898CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F3030648297EF99B001898CB /* Interview_Fit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F3030649297EF99B001898CB /* Interview_Fit.xcdatamodel */,
+			);
+			currentVersion = F3030649297EF99B001898CB /* Interview_Fit.xcdatamodel */;
+			path = Interview_Fit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F3030634297EF99B001898CB /* Project object */;
+}
