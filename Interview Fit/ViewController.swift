@@ -19,18 +19,16 @@ class ViewController: UIViewController {
         GIDSignIn.sharedInstance.signIn(withPresenting: self) { signInResult, error in
             guard error == nil else { return }
             guard let signInResult = signInResult else { return }
-
             let user = signInResult.user
-
-            let emailAddress = user.profile?.email
-
-            let fullName = user.profile?.name
-            let givenName = user.profile?.givenName
-            let familyName = user.profile?.familyName
-
-            let profilePicUrl = user.profile?.imageURL(withDimension: 320)
+            let authModel = AuthModel(fullName: user.profile?.name,
+                                      emailAddress: user.profile?.email,
+                                      imageUrl: user.profile?.imageURL(withDimension: 320),
+                                      seniorityLevel: "Ssr")
+//            authModel.fullName = user.profile?.name
+//            authModel.emailAddress = user.profile?.email
+//            authModel.imageUrl = user.profile?.imageURL(withDimension: 320)
             
-            print(emailAddress as Any)
+            print(authModel)
         }
     }
 
