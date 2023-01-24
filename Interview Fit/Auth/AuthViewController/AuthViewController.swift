@@ -8,27 +8,33 @@
 import UIKit
 import GoogleSignIn
 
-class ViewController: UIViewController {
-
+class AuthViewController: UIViewController {
+    
+    var authModel = AuthModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func signInTest(_ sender: GIDSignInButton) {
+    @IBAction func signIn(_ sender: GIDSignInButton) {
         GIDSignIn.sharedInstance.signIn(withPresenting: self) { signInResult, error in
             guard error == nil else { return }
             guard let signInResult = signInResult else { return }
             let user = signInResult.user
-            let authModel = AuthModel(fullName: user.profile?.name,
+            self.authModel = AuthModel(fullName: user.profile?.name,
                                       emailAddress: user.profile?.email,
                                       imageUrl: user.profile?.imageURL(withDimension: 320),
                                       seniorityLevel: "Ssr")
-//            authModel.fullName = user.profile?.name
-//            authModel.emailAddress = user.profile?.email
-//            authModel.imageUrl = user.profile?.imageURL(withDimension: 320)
             
-            print(authModel)
+            self.performSegue(withIdentifier: "goHome", sender: self)
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goHome" {
+            let homeViewController = segue.destination as! HomeViewController
+            homeViewController.authModel = authModel
         }
     }
 
