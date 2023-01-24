@@ -80,6 +80,7 @@ extension AlertHomeViewController: UITableViewDelegate, UITableViewDataSource {
         cell.nameLb.text = self.dataSource[indexPath.row].name
         // si desean agregar imagen cell.imgProfileCell.image 
         cell.containerCell.layer.cornerRadius = 10
+        cell.selectionStyle = .none
         return cell
     }
     
@@ -87,16 +88,18 @@ extension AlertHomeViewController: UITableViewDelegate, UITableViewDataSource {
         return dataSource.count
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("Information \(indexPath.row)")
-        
-        switch indexPath.row {
-        case 0:
-            print(indexPath.row)
-            //mandar a controller de preguntas
-        default:
-            print("no information")
-        }
-    }
-    
+  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    print("Information \(indexPath.row)")
+    //TO DO: - Cambiar cuando se tengan definidas las preguntas por seniority
+    //        switch indexPath.row {
+    //        case 0:
+    //            print(indexPath.row)
+    //
+    //        default:
+    //            print("no information")
+    //        }
+    let vc = QuestionsFitsViewController()
+    vc.modalPresentationStyle = .fullScreen
+    self.present(vc, animated: true)
+  }
 }
