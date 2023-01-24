@@ -22,6 +22,7 @@ class QuestionsFitsViewController: UIViewController {
     questionsTable.delegate = self
     questionsTable.dataSource = self
     questionsTable.register(UINib(nibName: QuestionFitTableViewCell.identifier, bundle: nil), forCellReuseIdentifier: QuestionFitTableViewCell.identifier)
+    self.navigationController?.isNavigationBarHidden = true
   }
   
   @IBAction func onClickDismissView(_ sender: Any) {
@@ -29,7 +30,10 @@ class QuestionsFitsViewController: UIViewController {
   }
   
   @IBAction func onClickFinishTest(_ sender: Any) {
-   let vc =
+    let vc = FinalScoreViewController()
+    vc.finalScore(questions: QuestionModel().getData().count, Answer: correctAnswers)
+    vc.modalPresentationStyle = .fullScreen
+    self.navigationController?.pushViewController(vc, animated: true)
   }
 }
 

@@ -15,6 +15,8 @@
 		B0BE00DA2980339200271520 /* QuestionFitTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0BE00D82980339200271520 /* QuestionFitTableViewCell.xib */; };
 		B0BE00DE2980573800271520 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE00DD2980573800271520 /* CheckBox.swift */; };
 		B0BE00E12980633B00271520 /* QuestionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE00E02980633B00271520 /* QuestionsModel.swift */; };
+		B0DC8C3629808271004B794F /* FinalScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DC8C3429808271004B794F /* FinalScoreViewController.swift */; };
+		B0DC8C3729808271004B794F /* FinalScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0DC8C3529808271004B794F /* FinalScoreViewController.xib */; };
 		F3030640297EF99B001898CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F303063F297EF99B001898CB /* AppDelegate.swift */; };
 		F3030642297EF99B001898CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3030641297EF99B001898CB /* SceneDelegate.swift */; };
 		F3030644297EF99B001898CB /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3030643297EF99B001898CB /* AuthViewController.swift */; };
@@ -61,6 +63,8 @@
 		B0BE00D82980339200271520 /* QuestionFitTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionFitTableViewCell.xib; sourceTree = "<group>"; };
 		B0BE00DD2980573800271520 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		B0BE00E02980633B00271520 /* QuestionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsModel.swift; sourceTree = "<group>"; };
+		B0DC8C3429808271004B794F /* FinalScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalScoreViewController.swift; sourceTree = "<group>"; };
+		B0DC8C3529808271004B794F /* FinalScoreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinalScoreViewController.xib; sourceTree = "<group>"; };
 		D7C978924F566ECB732D886E /* Pods-Interview Fit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interview Fit.release.xcconfig"; path = "Target Support Files/Pods-Interview Fit/Pods-Interview Fit.release.xcconfig"; sourceTree = "<group>"; };
 		F303063C297EF99B001898CB /* Interview Fit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interview Fit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F303063F297EF99B001898CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -197,6 +201,23 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		B0DC8C30298080A6004B794F /* FinalScore */ = {
+			isa = PBXGroup;
+			children = (
+				B0DC8C31298080BA004B794F /* View */,
+			);
+			path = FinalScore;
+			sourceTree = "<group>";
+		};
+		B0DC8C31298080BA004B794F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B0DC8C3429808271004B794F /* FinalScoreViewController.swift */,
+				B0DC8C3529808271004B794F /* FinalScoreViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F3030633297EF99B001898CB = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +243,7 @@
 		F303063E297EF99B001898CB /* Interview Fit */ = {
 			isa = PBXGroup;
 			children = (
+				B0DC8C30298080A6004B794F /* FinalScore */,
 				B0BE00CF2980327A00271520 /* QuestionsFits */,
 				3DD67C52298035E4003FFBA5 /* Auth */,
 				F3030674297F1445001898CB /* Common */,
@@ -430,6 +452,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0DC8C3729808271004B794F /* FinalScoreViewController.xib in Resources */,
 				B0BE00D62980337300271520 /* QuestionsFitsViewController.xib in Resources */,
 				B0BE00DA2980339200271520 /* QuestionFitTableViewCell.xib in Resources */,
 				F303064F297EF99D001898CB /* LaunchScreen.storyboard in Resources */,
@@ -517,6 +540,7 @@
 				F303064A297EF99B001898CB /* Interview_Fit.xcdatamodeld in Sources */,
 				F303067E297F181C001898CB /* ModelHome.swift in Sources */,
 				F3030640297EF99B001898CB /* AppDelegate.swift in Sources */,
+				B0DC8C3629808271004B794F /* FinalScoreViewController.swift in Sources */,
 				F3030642297EF99B001898CB /* SceneDelegate.swift in Sources */,
 				3DD67C552980360F003FFBA5 /* AuthModel.swift in Sources */,
 			);
