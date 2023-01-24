@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2F5259FCA65B2FBD94B4B348 /* libPods-Interview Fit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9849088091E9C5D97EE67F /* libPods-Interview Fit.a */; };
+		B0BE00D52980337300271520 /* QuestionsFitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE00D32980337300271520 /* QuestionsFitsViewController.swift */; };
+		B0BE00D62980337300271520 /* QuestionsFitsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0BE00D42980337300271520 /* QuestionsFitsViewController.xib */; };
+		B0BE00D92980339200271520 /* QuestionFitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE00D72980339200271520 /* QuestionFitTableViewCell.swift */; };
+		B0BE00DA2980339200271520 /* QuestionFitTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0BE00D82980339200271520 /* QuestionFitTableViewCell.xib */; };
+		B0BE00DE2980573800271520 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE00DD2980573800271520 /* CheckBox.swift */; };
+		B0BE00E12980633B00271520 /* QuestionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE00E02980633B00271520 /* QuestionsModel.swift */; };
 		F3030640297EF99B001898CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F303063F297EF99B001898CB /* AppDelegate.swift */; };
 		F3030642297EF99B001898CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3030641297EF99B001898CB /* SceneDelegate.swift */; };
 		F3030644297EF99B001898CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3030643297EF99B001898CB /* ViewController.swift */; };
@@ -40,6 +46,12 @@
 /* Begin PBXFileReference section */
 		4D00E87924DDA8C8E7F08ADE /* Pods-Interview Fit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interview Fit.debug.xcconfig"; path = "Target Support Files/Pods-Interview Fit/Pods-Interview Fit.debug.xcconfig"; sourceTree = "<group>"; };
 		4F9849088091E9C5D97EE67F /* libPods-Interview Fit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Interview Fit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BE00D32980337300271520 /* QuestionsFitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsFitsViewController.swift; sourceTree = "<group>"; };
+		B0BE00D42980337300271520 /* QuestionsFitsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionsFitsViewController.xib; sourceTree = "<group>"; };
+		B0BE00D72980339200271520 /* QuestionFitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionFitTableViewCell.swift; sourceTree = "<group>"; };
+		B0BE00D82980339200271520 /* QuestionFitTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionFitTableViewCell.xib; sourceTree = "<group>"; };
+		B0BE00DD2980573800271520 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		B0BE00E02980633B00271520 /* QuestionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsModel.swift; sourceTree = "<group>"; };
 		D7C978924F566ECB732D886E /* Pods-Interview Fit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interview Fit.release.xcconfig"; path = "Target Support Files/Pods-Interview Fit/Pods-Interview Fit.release.xcconfig"; sourceTree = "<group>"; };
 		F303063C297EF99B001898CB /* Interview Fit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interview Fit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F303063F297EF99B001898CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,7 +101,6 @@
 				4D00E87924DDA8C8E7F08ADE /* Pods-Interview Fit.debug.xcconfig */,
 				D7C978924F566ECB732D886E /* Pods-Interview Fit.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -99,6 +110,58 @@
 				4F9849088091E9C5D97EE67F /* libPods-Interview Fit.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0BE00CF2980327A00271520 /* QuestionsFits */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE00DF2980632C00271520 /* Model */,
+				B0BE00D12980329900271520 /* View */,
+			);
+			path = QuestionsFits;
+			sourceTree = "<group>";
+		};
+		B0BE00D12980329900271520 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE00D2298032F200271520 /* Cell */,
+				B0BE00D32980337300271520 /* QuestionsFitsViewController.swift */,
+				B0BE00D42980337300271520 /* QuestionsFitsViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B0BE00D2298032F200271520 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE00D72980339200271520 /* QuestionFitTableViewCell.swift */,
+				B0BE00D82980339200271520 /* QuestionFitTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B0BE00DB2980571800271520 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE00DC2980572200271520 /* CheckBox */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		B0BE00DC2980572200271520 /* CheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE00DD2980573800271520 /* CheckBox.swift */,
+			);
+			path = CheckBox;
+			sourceTree = "<group>";
+		};
+		B0BE00DF2980632C00271520 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE00E02980633B00271520 /* QuestionsModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		F3030633297EF99B001898CB = {
@@ -126,6 +189,8 @@
 		F303063E297EF99B001898CB /* Interview Fit */ = {
 			isa = PBXGroup;
 			children = (
+				B0BE00DB2980571800271520 /* Commons */,
+				B0BE00CF2980327A00271520 /* QuestionsFits */,
 				F303063F297EF99B001898CB /* AppDelegate.swift */,
 				F3030641297EF99B001898CB /* SceneDelegate.swift */,
 				F3030643297EF99B001898CB /* ViewController.swift */,
@@ -261,6 +326,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0BE00D62980337300271520 /* QuestionsFitsViewController.xib in Resources */,
+				B0BE00DA2980339200271520 /* QuestionFitTableViewCell.xib in Resources */,
 				F303064F297EF99D001898CB /* LaunchScreen.storyboard in Resources */,
 				F303064C297EF99D001898CB /* Assets.xcassets in Resources */,
 				F3030647297EF99B001898CB /* Main.storyboard in Resources */,
@@ -331,7 +398,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3030644297EF99B001898CB /* ViewController.swift in Sources */,
+				B0BE00D92980339200271520 /* QuestionFitTableViewCell.swift in Sources */,
 				F303064A297EF99B001898CB /* Interview_Fit.xcdatamodeld in Sources */,
+				B0BE00E12980633B00271520 /* QuestionsModel.swift in Sources */,
+				B0BE00DE2980573800271520 /* CheckBox.swift in Sources */,
+				B0BE00D52980337300271520 /* QuestionsFitsViewController.swift in Sources */,
 				F3030640297EF99B001898CB /* AppDelegate.swift in Sources */,
 				F3030642297EF99B001898CB /* SceneDelegate.swift in Sources */,
 			);
