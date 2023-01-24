@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2F5259FCA65B2FBD94B4B348 /* libPods-Interview Fit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9849088091E9C5D97EE67F /* libPods-Interview Fit.a */; };
+		3DD67C552980360F003FFBA5 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD67C542980360F003FFBA5 /* AuthModel.swift */; };
 		B0BE00D52980337300271520 /* QuestionsFitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE00D32980337300271520 /* QuestionsFitsViewController.swift */; };
 		B0BE00D62980337300271520 /* QuestionsFitsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0BE00D42980337300271520 /* QuestionsFitsViewController.xib */; };
 		B0BE00D92980339200271520 /* QuestionFitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE00D72980339200271520 /* QuestionFitTableViewCell.swift */; };
@@ -16,7 +17,7 @@
 		B0BE00E12980633B00271520 /* QuestionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE00E02980633B00271520 /* QuestionsModel.swift */; };
 		F3030640297EF99B001898CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F303063F297EF99B001898CB /* AppDelegate.swift */; };
 		F3030642297EF99B001898CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3030641297EF99B001898CB /* SceneDelegate.swift */; };
-		F3030644297EF99B001898CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3030643297EF99B001898CB /* ViewController.swift */; };
+		F3030644297EF99B001898CB /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3030643297EF99B001898CB /* AuthViewController.swift */; };
 		F3030647297EF99B001898CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3030645297EF99B001898CB /* Main.storyboard */; };
 		F303064A297EF99B001898CB /* Interview_Fit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3030648297EF99B001898CB /* Interview_Fit.xcdatamodeld */; };
 		F303064C297EF99D001898CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F303064B297EF99D001898CB /* Assets.xcassets */; };
@@ -24,6 +25,13 @@
 		F303065A297EF99D001898CB /* Interview_FitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3030659297EF99D001898CB /* Interview_FitTests.swift */; };
 		F3030664297EF99D001898CB /* Interview_FitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3030663297EF99D001898CB /* Interview_FitUITests.swift */; };
 		F3030666297EF99D001898CB /* Interview_FitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3030665297EF99D001898CB /* Interview_FitUITestsLaunchTests.swift */; };
+		F3030677297F1465001898CB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3030676297F1465001898CB /* HomeViewController.swift */; };
+		F3030679297F1658001898CB /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3030678297F1658001898CB /* Helpers.swift */; };
+		F303067E297F181C001898CB /* ModelHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F303067D297F181C001898CB /* ModelHome.swift */; };
+		F3030681297F195C001898CB /* CollectionViewHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3030680297F195C001898CB /* CollectionViewHome.swift */; };
+		F38C1A20297F28DA0072D298 /* CommonStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38C1A1F297F28DA0072D298 /* CommonStr.swift */; };
+		F38C1A2329804AC20072D298 /* SeniorityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38C1A2229804AC20072D298 /* SeniorityTableViewCell.swift */; };
+		F38C1A2729804AFF0072D298 /* AlertHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38C1A2629804AFF0072D298 /* AlertHomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DD67C542980360F003FFBA5 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
 		4D00E87924DDA8C8E7F08ADE /* Pods-Interview Fit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interview Fit.debug.xcconfig"; path = "Target Support Files/Pods-Interview Fit/Pods-Interview Fit.debug.xcconfig"; sourceTree = "<group>"; };
 		4F9849088091E9C5D97EE67F /* libPods-Interview Fit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Interview Fit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BE00D32980337300271520 /* QuestionsFitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsFitsViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +65,7 @@
 		F303063C297EF99B001898CB /* Interview Fit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interview Fit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F303063F297EF99B001898CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3030641297EF99B001898CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F3030643297EF99B001898CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3030643297EF99B001898CB /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		F3030646297EF99B001898CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3030649297EF99B001898CB /* Interview_Fit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Interview_Fit.xcdatamodel; sourceTree = "<group>"; };
 		F303064B297EF99D001898CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,6 +76,13 @@
 		F303065F297EF99D001898CB /* Interview FitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interview FitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3030663297EF99D001898CB /* Interview_FitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interview_FitUITests.swift; sourceTree = "<group>"; };
 		F3030665297EF99D001898CB /* Interview_FitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interview_FitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F3030676297F1465001898CB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F3030678297F1658001898CB /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		F303067D297F181C001898CB /* ModelHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelHome.swift; sourceTree = "<group>"; };
+		F3030680297F195C001898CB /* CollectionViewHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewHome.swift; sourceTree = "<group>"; };
+		F38C1A1F297F28DA0072D298 /* CommonStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonStr.swift; sourceTree = "<group>"; };
+		F38C1A2229804AC20072D298 /* SeniorityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeniorityTableViewCell.swift; sourceTree = "<group>"; };
+		F38C1A2629804AFF0072D298 /* AlertHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +111,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DD67C52298035E4003FFBA5 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				3DF99515298062A60081913F /* AuthViewController */,
+				3DD67C53298035FA003FFBA5 /* AuthModel */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		3DD67C53298035FA003FFBA5 /* AuthModel */ = {
+			isa = PBXGroup;
+			children = (
+				3DD67C542980360F003FFBA5 /* AuthModel.swift */,
+			);
+			path = AuthModel;
+			sourceTree = "<group>";
+		};
+		3DF99515298062A60081913F /* AuthViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F3030643297EF99B001898CB /* AuthViewController.swift */,
+			);
+			path = AuthViewController;
+			sourceTree = "<group>";
+		};
 		640DE18C86569F6DA7BE8D16 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,9 +232,11 @@
 			children = (
 				B0BE00DB2980571800271520 /* Commons */,
 				B0BE00CF2980327A00271520 /* QuestionsFits */,
+				3DD67C52298035E4003FFBA5 /* Auth */,
+				F3030674297F1445001898CB /* Common */,
+				F3030672297F143A001898CB /* Home */,
 				F303063F297EF99B001898CB /* AppDelegate.swift */,
 				F3030641297EF99B001898CB /* SceneDelegate.swift */,
-				F3030643297EF99B001898CB /* ViewController.swift */,
 				F3030645297EF99B001898CB /* Main.storyboard */,
 				F303064B297EF99D001898CB /* Assets.xcassets */,
 				F303064D297EF99D001898CB /* LaunchScreen.storyboard */,
@@ -218,6 +261,75 @@
 				F3030665297EF99D001898CB /* Interview_FitUITestsLaunchTests.swift */,
 			);
 			path = "Interview FitUITests";
+			sourceTree = "<group>";
+		};
+		F3030672297F143A001898CB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F38C1A2429804AD40072D298 /* AlertViewHome */,
+				F3030675297F1449001898CB /* ViewControllerHome */,
+				F3030673297F1440001898CB /* ModelHome */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F3030673297F1440001898CB /* ModelHome */ = {
+			isa = PBXGroup;
+			children = (
+				F303067D297F181C001898CB /* ModelHome.swift */,
+			);
+			path = ModelHome;
+			sourceTree = "<group>";
+		};
+		F3030674297F1445001898CB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F3030678297F1658001898CB /* Helpers.swift */,
+				F38C1A1F297F28DA0072D298 /* CommonStr.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F3030675297F1449001898CB /* ViewControllerHome */ = {
+			isa = PBXGroup;
+			children = (
+				F3030676297F1465001898CB /* HomeViewController.swift */,
+				F303067F297F192E001898CB /* CollectionCellHome */,
+			);
+			path = ViewControllerHome;
+			sourceTree = "<group>";
+		};
+		F303067F297F192E001898CB /* CollectionCellHome */ = {
+			isa = PBXGroup;
+			children = (
+				F3030680297F195C001898CB /* CollectionViewHome.swift */,
+			);
+			path = CollectionCellHome;
+			sourceTree = "<group>";
+		};
+		F38C1A2129804AAD0072D298 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				F38C1A2229804AC20072D298 /* SeniorityTableViewCell.swift */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		F38C1A2429804AD40072D298 /* AlertViewHome */ = {
+			isa = PBXGroup;
+			children = (
+				F38C1A2529804AE30072D298 /* AlertHomeViewController */,
+				F38C1A2129804AAD0072D298 /* TableCell */,
+			);
+			path = AlertViewHome;
+			sourceTree = "<group>";
+		};
+		F38C1A2529804AE30072D298 /* AlertHomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F38C1A2629804AFF0072D298 /* AlertHomeViewController.swift */,
+			);
+			path = AlertHomeViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -397,14 +509,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3030644297EF99B001898CB /* ViewController.swift in Sources */,
+				F3030644297EF99B001898CB /* AuthViewController.swift in Sources */,
 				B0BE00D92980339200271520 /* QuestionFitTableViewCell.swift in Sources */,
 				F303064A297EF99B001898CB /* Interview_Fit.xcdatamodeld in Sources */,
 				B0BE00E12980633B00271520 /* QuestionsModel.swift in Sources */,
 				B0BE00DE2980573800271520 /* CheckBox.swift in Sources */,
 				B0BE00D52980337300271520 /* QuestionsFitsViewController.swift in Sources */,
+				F38C1A2729804AFF0072D298 /* AlertHomeViewController.swift in Sources */,
+				F3030677297F1465001898CB /* HomeViewController.swift in Sources */,
+				F38C1A20297F28DA0072D298 /* CommonStr.swift in Sources */,
+				F38C1A2329804AC20072D298 /* SeniorityTableViewCell.swift in Sources */,
+				F3030679297F1658001898CB /* Helpers.swift in Sources */,
+				F3030644297EF99B001898CB /* AuthViewController.swift in Sources */,
+				F3030681297F195C001898CB /* CollectionViewHome.swift in Sources */,
+				F303064A297EF99B001898CB /* Interview_Fit.xcdatamodeld in Sources */,
+				F303067E297F181C001898CB /* ModelHome.swift in Sources */,
 				F3030640297EF99B001898CB /* AppDelegate.swift in Sources */,
 				F3030642297EF99B001898CB /* SceneDelegate.swift in Sources */,
+				3DD67C552980360F003FFBA5 /* AuthModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +704,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UYXL73S8S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Interview Fit/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -610,6 +733,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UYXL73S8S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Interview Fit/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
