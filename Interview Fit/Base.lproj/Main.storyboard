@@ -198,10 +198,10 @@
             </objects>
             <point key="canvasLocation" x="1516.9230769230769" y="3.5545023696682461"/>
         </scene>
-        <!--View Controller-->
+        <!--View Score-->
         <scene sceneID="cj4-8v-eW3">
             <objects>
-                <viewController id="tSF-hT-zzJ" sceneMemberID="viewController">
+                <viewController id="tSF-hT-zzJ" customClass="ViewScore" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="30p-jq-uRU">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

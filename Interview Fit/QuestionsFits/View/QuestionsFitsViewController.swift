@@ -29,7 +29,7 @@ class QuestionsFitsViewController: UIViewController {
   }
   
   @IBAction func onClickFinishTest(_ sender: Any) {
-    
+   let vc =
   }
 }
 
