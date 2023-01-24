@@ -23,6 +23,8 @@
 		F303067E297F181C001898CB /* ModelHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F303067D297F181C001898CB /* ModelHome.swift */; };
 		F3030681297F195C001898CB /* CollectionViewHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3030680297F195C001898CB /* CollectionViewHome.swift */; };
 		F38C1A20297F28DA0072D298 /* CommonStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38C1A1F297F28DA0072D298 /* CommonStr.swift */; };
+		F38C1A2329804AC20072D298 /* SeniorityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38C1A2229804AC20072D298 /* SeniorityTableViewCell.swift */; };
+		F38C1A2729804AFF0072D298 /* AlertHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38C1A2629804AFF0072D298 /* AlertHomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		F303067D297F181C001898CB /* ModelHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelHome.swift; sourceTree = "<group>"; };
 		F3030680297F195C001898CB /* CollectionViewHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewHome.swift; sourceTree = "<group>"; };
 		F38C1A1F297F28DA0072D298 /* CommonStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonStr.swift; sourceTree = "<group>"; };
+		F38C1A2229804AC20072D298 /* SeniorityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeniorityTableViewCell.swift; sourceTree = "<group>"; };
+		F38C1A2629804AFF0072D298 /* AlertHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,7 @@
 		F3030672297F143A001898CB /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				F38C1A2429804AD40072D298 /* AlertViewHome */,
 				F3030675297F1449001898CB /* ViewControllerHome */,
 				F3030673297F1440001898CB /* ModelHome */,
 			);
@@ -207,6 +212,31 @@
 				F3030680297F195C001898CB /* CollectionViewHome.swift */,
 			);
 			path = CollectionCellHome;
+			sourceTree = "<group>";
+		};
+		F38C1A2129804AAD0072D298 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				F38C1A2229804AC20072D298 /* SeniorityTableViewCell.swift */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		F38C1A2429804AD40072D298 /* AlertViewHome */ = {
+			isa = PBXGroup;
+			children = (
+				F38C1A2529804AE30072D298 /* AlertHomeViewController */,
+				F38C1A2129804AAD0072D298 /* TableCell */,
+			);
+			path = AlertViewHome;
+			sourceTree = "<group>";
+		};
+		F38C1A2529804AE30072D298 /* AlertHomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F38C1A2629804AFF0072D298 /* AlertHomeViewController.swift */,
+			);
+			path = AlertHomeViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,8 +414,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F38C1A2729804AFF0072D298 /* AlertHomeViewController.swift in Sources */,
 				F3030677297F1465001898CB /* HomeViewController.swift in Sources */,
 				F38C1A20297F28DA0072D298 /* CommonStr.swift in Sources */,
+				F38C1A2329804AC20072D298 /* SeniorityTableViewCell.swift in Sources */,
 				F3030679297F1658001898CB /* Helpers.swift in Sources */,
 				F3030644297EF99B001898CB /* ViewController.swift in Sources */,
 				F3030681297F195C001898CB /* CollectionViewHome.swift in Sources */,

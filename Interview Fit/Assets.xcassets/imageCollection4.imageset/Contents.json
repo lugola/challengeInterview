@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "java.jpeg",
+      "filename" : "php.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "java 1.jpeg",
+      "filename" : "php 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "java 2.jpeg",
+      "filename" : "php 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

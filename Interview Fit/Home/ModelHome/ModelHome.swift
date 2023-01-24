@@ -14,3 +14,8 @@ struct ModelHome: Codable{
     var image: String?
     
 }
+
+struct ModelAlert: Codable{
+    var name: String?
+    var image: String?
+}

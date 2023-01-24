@@ -52,8 +52,8 @@ class HomeViewController: UIViewController {
         CollectionViewHomeRow.showsVerticalScrollIndicator = false
         CollectionViewHomeRow.delegate = self
         CollectionViewHomeRow.dataSource = self
-        self.initModel(data: [ModelHome.init(name: "Swift", image: CentralStrings.imgCollect1), ModelHome.init(name: "Android", image: CentralStrings.imgCollect2), ModelHome.init(name: "Java AWS", image: CentralStrings.imgCollect3), ModelHome.init(name: "Backend", image: "imageTool"),  ModelHome.init(name: "Backend", image: "imageTool"),  ModelHome.init(name: "Backend", image: "imageTool"), ModelHome.init(name: "UX/UI", image: CentralStrings.imgToolDefault)])
-        profileImage.image = UIImage(named: CentralStrings.imgProfileDefault)
+        self.initModel(data: [ModelHome.init(name: "iOS", image: CentralStrings.imgCollect1), ModelHome.init(name: "Android", image: CentralStrings.imgCollect2), ModelHome.init(name: "Java", image: CentralStrings.imgCollect3), ModelHome.init(name: "Backend", image: CentralStrings.imgCollect4)])
+        profileImage.image = UIImage(named: CentralStrings.imgProfileDefault)?.withRoundedCorners()
         nameLb.text = CentralStrings.nameUser
         seniorityLb.text = CentralStrings.seniorityUser
     }
@@ -63,15 +63,16 @@ class HomeViewController: UIViewController {
     
     func viewStoryboardDetail(index: IndexPath){
         let storyBoard: UIStoryboard = UIStoryboard(name: CentralStrings.storyboardHm, bundle: nil)
-        // let newViewController = storyBoard.instantiateViewController(withIdentifier: "idNEWDETAIL") as! viewcontrollerDetail
-        let name = self.dataSource[index.row].name!
-        //   newViewController.titleNav = name
-        // self.navigationController?.pushViewController(newViewController, animated: true)
+        let popOverAlert = storyBoard.instantiateViewController(withIdentifier: "idAlert") as! AlertHomeViewController
+        //if want to pass data for reference let name = self.dataSource[index.row].name!
+        //  popOverAlert.name = name
+        self.addChild(popOverAlert)
+        self.view.addSubview(popOverAlert.view)
+        popOverAlert.didMove(toParent: self)
     }
     
     
 }
-
 
 //MARK: Extension Protocols
 
@@ -83,20 +84,13 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath as IndexPath) as! CollectionViewHome
         cell.lbName.text = self.dataSource[indexPath.row].name ?? CentralStrings.noInfo
-        cell.imgIcon.image = UIImage(named: self.dataSource[indexPath.row].image ?? CentralStrings.imgToolDefault)
+        cell.imgIcon.image = UIImage(named: self.dataSource[indexPath.row].image ?? CentralStrings.imgToolDefault)?.withRoundedCorners()
         cell.containerViewCell.dropShadow()
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print("Information \(indexPath.row)")
-        
-        switch indexPath.row {
-        case 0:
-            self.viewStoryboardDetail(index: indexPath)
-            
-        default:
-            print("no information")
-        }
+        self.viewStoryboardDetail(index: indexPath)
     }
     
 }
