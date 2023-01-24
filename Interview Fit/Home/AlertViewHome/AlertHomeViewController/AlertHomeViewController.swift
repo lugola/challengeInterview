@@ -99,7 +99,8 @@ extension AlertHomeViewController: UITableViewDelegate, UITableViewDataSource {
     //            print("no information")
     //        }
     let vc = QuestionsFitsViewController()
-    vc.modalPresentationStyle = .fullScreen
-    self.present(vc, animated: true)
+    let nav = UINavigationController(rootViewController: vc)
+    nav.modalPresentationStyle = .fullScreen
+    self.present(nav, animated: true)
   }
 }

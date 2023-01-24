@@ -198,76 +198,6 @@
             </objects>
             <point key="canvasLocation" x="1516.9230769230769" y="3.5545023696682461"/>
         </scene>
-        <!--View Score-->
-        <scene sceneID="cj4-8v-eW3">
-            <objects>
-                <viewController id="tSF-hT-zzJ" customClass="ViewScore" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="30p-jq-uRU">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Your Score:" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sQw-QY-1Py">
-                                <rect key="frame" x="131" y="344" width="129" height="34"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHB-Mf-fzG">
-                                <rect key="frame" x="54" y="599" width="282" height="34.333333333333371"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="282" id="gK3-li-Eau"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Take a New Quiz"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8r6-nZ-1Xe">
-                                <rect key="frame" x="54" y="692" width="282" height="34.333333333333371"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="282" id="bdQ-AQ-4iR"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Finish"/>
-                            </button>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Congratulations Your Name!" borderStyle="roundedRect" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aMc-4l-lnw">
-                                <rect key="frame" x="68" y="142" width="254" height="104"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="AlNile" family="Al Nile" pointSize="70"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3/4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ThV-LT-PbM">
-                                <rect key="frame" x="147" y="422" width="96" height="77"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="rfr-Cp-HbY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="rfr-Cp-HbY" firstAttribute="trailing" secondItem="ThV-LT-PbM" secondAttribute="trailing" constant="147" id="15h-14-Bod"/>
-                            <constraint firstItem="rfr-Cp-HbY" firstAttribute="trailing" secondItem="8r6-nZ-1Xe" secondAttribute="trailing" constant="54" id="18F-Gl-cfO"/>
-                            <constraint firstItem="sQw-QY-1Py" firstAttribute="leading" secondItem="rfr-Cp-HbY" secondAttribute="leading" constant="131" id="1MH-Uh-cQS"/>
-                            <constraint firstItem="rfr-Cp-HbY" firstAttribute="trailing" secondItem="eHB-Mf-fzG" secondAttribute="trailing" constant="54" id="5Eo-lg-8WL"/>
-                            <constraint firstItem="aMc-4l-lnw" firstAttribute="leading" secondItem="rfr-Cp-HbY" secondAttribute="leading" constant="68" id="IlP-tU-R0Q"/>
-                            <constraint firstItem="ThV-LT-PbM" firstAttribute="top" secondItem="sQw-QY-1Py" secondAttribute="bottom" constant="44" id="LDX-i7-lOt"/>
-                            <constraint firstItem="8r6-nZ-1Xe" firstAttribute="top" secondItem="eHB-Mf-fzG" secondAttribute="bottom" constant="58.666666666666629" id="QNh-C7-TXc"/>
-                            <constraint firstItem="rfr-Cp-HbY" firstAttribute="trailing" secondItem="aMc-4l-lnw" secondAttribute="trailing" constant="68" id="RQn-nd-qBU"/>
-                            <constraint firstItem="eHB-Mf-fzG" firstAttribute="top" secondItem="ThV-LT-PbM" secondAttribute="bottom" constant="100" id="UmG-yb-kEQ"/>
-                            <constraint firstItem="aMc-4l-lnw" firstAttribute="top" secondItem="rfr-Cp-HbY" secondAttribute="top" constant="95" id="YAY-7f-MBU"/>
-                            <constraint firstItem="eHB-Mf-fzG" firstAttribute="leading" secondItem="rfr-Cp-HbY" secondAttribute="leading" constant="54" id="ZVQ-Pg-nuT"/>
-                            <constraint firstItem="rfr-Cp-HbY" firstAttribute="bottom" secondItem="8r6-nZ-1Xe" secondAttribute="bottom" constant="83.666666666666629" id="dor-Cl-qOe"/>
-                            <constraint firstItem="rfr-Cp-HbY" firstAttribute="trailing" secondItem="sQw-QY-1Py" secondAttribute="trailing" constant="130" id="iO7-1o-HDc"/>
-                            <constraint firstItem="ThV-LT-PbM" firstAttribute="leading" secondItem="rfr-Cp-HbY" secondAttribute="leading" constant="147" id="kAB-vb-P6l"/>
-                            <constraint firstItem="sQw-QY-1Py" firstAttribute="top" secondItem="aMc-4l-lnw" secondAttribute="bottom" constant="98" id="xKC-VT-zGD"/>
-                            <constraint firstItem="8r6-nZ-1Xe" firstAttribute="leading" secondItem="rfr-Cp-HbY" secondAttribute="leading" constant="54" id="xKQ-Vp-yxA"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GjT-G7-6A6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2248" y="4"/>
-        </scene>
         <!--Alert Home View Controller-->
         <scene sceneID="O9x-vv-sGh">
             <objects>
@@ -397,9 +327,6 @@
         <image name="GlobantLogo" width="1794" height="522"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
