@@ -23,6 +23,14 @@ class QuestionsFitsViewController: UIViewController {
     questionsTable.dataSource = self
     questionsTable.register(UINib(nibName: QuestionFitTableViewCell.identifier, bundle: nil), forCellReuseIdentifier: QuestionFitTableViewCell.identifier)
   }
+  
+  @IBAction func onClickDismissView(_ sender: Any) {
+    self.dismiss(animated: true)
+  }
+  
+  @IBAction func onClickFinishTest(_ sender: Any) {
+    
+  }
 }
 
 extension QuestionsFitsViewController: UITableViewDelegate, UITableViewDataSource {

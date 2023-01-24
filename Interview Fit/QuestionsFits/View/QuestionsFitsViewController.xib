@@ -20,19 +20,43 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ewq-FQ-u2e">
-                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <rect key="frame" x="0.0" y="79" width="393" height="664"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TqV-N2-TL7">
+                    <rect key="frame" x="10" y="69" width="72.333333333333329" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="U0u-Re-0lg"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Cerrar"/>
+                    <connections>
+                        <action selector="onClickDismissView:" destination="-1" eventType="touchUpInside" id="jV3-qp-OKm"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v09-oS-Hce">
+                    <rect key="frame" x="30" y="763" width="333" height="35"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Finalizar"/>
+                    <connections>
+                        <action selector="onClickFinishTest:" destination="-1" eventType="touchUpInside" id="N3C-mL-JPL"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="ewq-FQ-u2e" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="0p1-pL-a2w"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="v09-oS-Hce" secondAttribute="trailing" constant="30" id="20T-oq-5Hx"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ewq-FQ-u2e" secondAttribute="trailing" id="7Y6-p0-Jlq"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="ewq-FQ-u2e" secondAttribute="bottom" id="WW8-Hd-9l4"/>
-                <constraint firstItem="ewq-FQ-u2e" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="xne-3P-JlX"/>
+                <constraint firstItem="v09-oS-Hce" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="JaF-j5-GG4"/>
+                <constraint firstItem="TqV-N2-TL7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="Jh5-oz-hUG"/>
+                <constraint firstItem="TqV-N2-TL7" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="gHf-NQ-lnD"/>
+                <constraint firstItem="v09-oS-Hce" firstAttribute="top" secondItem="ewq-FQ-u2e" secondAttribute="bottom" constant="20" id="l3S-ff-VdR"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="v09-oS-Hce" secondAttribute="bottom" constant="20" id="oNc-Nl-WPT"/>
+                <constraint firstItem="ewq-FQ-u2e" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="xne-3P-JlX"/>
             </constraints>
-            <point key="canvasLocation" x="138" y="20"/>
+            <point key="canvasLocation" x="136.64122137404578" y="19.718309859154932"/>
         </view>
     </objects>
     <resources>

@@ -181,14 +181,6 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
-		B0BE00DB2980571800271520 /* Commons */ = {
-			isa = PBXGroup;
-			children = (
-				B0BE00DC2980572200271520 /* CheckBox */,
-			);
-			path = Commons;
-			sourceTree = "<group>";
-		};
 		B0BE00DC2980572200271520 /* CheckBox */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,7 +222,6 @@
 		F303063E297EF99B001898CB /* Interview Fit */ = {
 			isa = PBXGroup;
 			children = (
-				B0BE00DB2980571800271520 /* Commons */,
 				B0BE00CF2980327A00271520 /* QuestionsFits */,
 				3DD67C52298035E4003FFBA5 /* Auth */,
 				F3030674297F1445001898CB /* Common */,
@@ -284,6 +275,7 @@
 		F3030674297F1445001898CB /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				B0BE00DC2980572200271520 /* CheckBox */,
 				F3030678297F1658001898CB /* Helpers.swift */,
 				F38C1A1F297F28DA0072D298 /* CommonStr.swift */,
 			);
