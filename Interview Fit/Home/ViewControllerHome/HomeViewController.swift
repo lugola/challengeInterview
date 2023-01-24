@@ -23,7 +23,6 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(authModel.fullName ?? "Vacio")
         loadUI()
     }
     
@@ -54,9 +53,9 @@ class HomeViewController: UIViewController {
         CollectionViewHomeRow.delegate = self
         CollectionViewHomeRow.dataSource = self
         self.initModel(data: [ModelHome.init(name: "iOS", image: CentralStrings.imgCollect1), ModelHome.init(name: "Android", image: CentralStrings.imgCollect2), ModelHome.init(name: "Java", image: CentralStrings.imgCollect3), ModelHome.init(name: "Backend", image: CentralStrings.imgCollect4)])
-        profileImage.image = UIImage(named: CentralStrings.imgProfileDefault)?.withRoundedCorners()
-        nameLb.text = CentralStrings.nameUser
-        seniorityLb.text = CentralStrings.seniorityUser
+        profileImage.downloaded(from: authModel.imageUrl!)
+        nameLb.text = authModel.fullName
+        seniorityLb.text = authModel.emailAddress
     }
     
     
@@ -93,5 +92,4 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
         print("Information \(indexPath.row)")
         self.viewStoryboardDetail(index: indexPath)
     }
-    
 }

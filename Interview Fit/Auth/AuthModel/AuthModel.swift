@@ -11,5 +11,4 @@ struct AuthModel: Codable {
     var fullName: String?
     var emailAddress: String?
     var imageUrl: URL?
-    var seniorityLevel: String = "Jr"
 }

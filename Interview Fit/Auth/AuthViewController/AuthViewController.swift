@@ -24,15 +24,14 @@ class AuthViewController: UIViewController {
             let user = signInResult.user
             self.authModel = AuthModel(fullName: user.profile?.name,
                                       emailAddress: user.profile?.email,
-                                      imageUrl: user.profile?.imageURL(withDimension: 320),
-                                      seniorityLevel: "Ssr")
+                                      imageUrl: user.profile?.imageURL(withDimension: 320))
             
-            self.performSegue(withIdentifier: "goHome", sender: self)
+            self.performSegue(withIdentifier: CentralStrings.segueHome, sender: self)
         }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "goHome" {
+        if segue.identifier == CentralStrings.segueHome {
             let homeViewController = segue.destination as! HomeViewController
             homeViewController.authModel = authModel
         }

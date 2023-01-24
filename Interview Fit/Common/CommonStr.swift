@@ -14,9 +14,8 @@ struct CentralStrings {
     static var imgCollect4 = "imageCollection4"
     static var imgToolDefault = "imageTool"
     static var imgProfileDefault = "profileImage"
-    static var nameUser = "Moises Lugo"
-    static var seniorityUser = "moises.lugo@globant.com"
     static var tableCel = "cell"
     static var noInfo = "no info"
     static var storyboardHm = "Main"
+    static var segueHome = "goHome"
 }
