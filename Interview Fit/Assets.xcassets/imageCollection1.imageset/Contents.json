@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "aws_logo_smile_1200x630.png",
+      "filename" : "ios.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "aws_logo_smile_1200x630 1.png",
+      "filename" : "ios 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "aws_logo_smile_1200x630 2.png",
+      "filename" : "ios 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
