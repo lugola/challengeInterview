@@ -93,7 +93,9 @@ extension AlertHomeViewController: UITableViewDelegate, UITableViewDataSource {
         switch indexPath.row {
         case 0:
             print(indexPath.row)
-            //mandar a controller de preguntas
+            let vc = UINavigationController(rootViewController: QuestionsFitsViewController())
+            vc.modalPresentationStyle = .fullScreen
+            self.navigationController?.pushViewController(vc, animated: true)
         default:
             print("no information")
         }
